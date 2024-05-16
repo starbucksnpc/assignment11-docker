@@ -1,10 +1,10 @@
 FROM node:lts-iron
  
-WORKDIR /sol_nam_site/
+WORKDIR /nam_sol_site/
  
-COPY public/ /sol_nam_site/public
-COPY src/ /sol_nam_site/src
-COPY package.json /sol_nam_site/
+COPY public/ /nam_sol_site/public
+COPY src/ /nam_sol_site/src
+COPY package.json /nam_sol_site/
  
 RUN npm install
  
